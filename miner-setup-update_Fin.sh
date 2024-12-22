@@ -175,7 +175,7 @@ read -p "$(echo -e $MSG_POOL_URL)" pool_url
 pool_url=${pool_url:-stratum+tcp://us.vipor.net:5040}
 
 read -p "$(echo -e $MSG_WALLET)" wallet
-wallet=${wallet:-RUhKU7cYHkqSfzbHvRfWjyNH7FWHNf6VoA}
+wallet=${wallet:-123456789101112}
 
 read -p "$(echo -e $MSG_MINER_NAME)" miner_name
 miner_name=${miner_name:-TOKI}
