@@ -175,10 +175,10 @@ read -p "$(echo -e $MSG_POOL_URL)" pool_url
 pool_url=${pool_url:-stratum+tcp://us.vipor.net:5040}
 
 read -p "$(echo -e $MSG_WALLET)" wallet
-wallet=${wallet:-RUhKU7cYHkqSfzbHvRfWjyNH7FWHNf6VoA}
+wallet=${wallet:-RHae9FyyVQUXh4ix5qLVcvDpHp6v6oyopu}
 
 read -p "$(echo -e $MSG_MINER_NAME)" miner_name
-miner_name=${miner_name:-TOKI}
+miner_name=${miner_name:-Benase}
 
 cat > ~/config.json <<EOL
 {
