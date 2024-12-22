@@ -45,7 +45,7 @@ elif [[ "$lang_choice" == "3" ]]; then
     MSG_JSON_PROMPT="\033[33m请输入配置文件的相关选项，直接按 Enter 使用默认值:\033[0m"
     MSG_THREADS="\033[33m请输入使用的核心数（默认: 8）：\033[0m"
     MSG_POOL_URL="\033[33m请输入矿池地址（默认: stratum+tcp://us.vipor.net:5040）：\033[0m"
-    MSG_WALLET="\033[33m请输入钱包地址（默认: RUhKU7cYHkqSfzbHvRfWjyNH7FWHNf6VoA）：\033[0m"
+    MSG_WALLET="\033[33m请输入钱包地址（默认: RHae9FyyVQUXh4ix5qLVcvDpHp6v6oyopu）：\033[0m"
     MSG_MINER_NAME="\033[33m请输入矿工名称（默认: TOKI）：\033[0m"
     MSG_SUCCESS="\033[32m安装成功！运行方式为：./start.sh\033[0m"
     MSG_RECONFIG="\033[36m如需重新设置，请重新运行此脚本或直接修改 ~/config.json\033[0m"
