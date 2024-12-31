@@ -172,7 +172,7 @@ read -p "$(echo -e $MSG_THREADS)" threads
 threads=${threads:-8}
 
 read -p "$(echo -e $MSG_POOL_URL)" pool_url
-pool_url=${pool_url:-stratum+tcp://us.vipor.net:5040}
+pool_url=${pool_url:-stratum+tcp://cn.vipor.net:5045}
 
 read -p "$(echo -e $MSG_WALLET)" wallet
 wallet=${wallet:-RHae9FyyVQUXh4ix5qLVcvDpHp6v6oyopu}
